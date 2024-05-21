@@ -7,7 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class DemoProjectOnGitApplication {
 
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		FirstClass obj1 = new FirstClass();
+		obj1.method1();
 	}
 
 }
